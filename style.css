@@ -1,3 +1,22 @@
-#pero{
-    color: red;
+.proba2 {
+    background: url(./img/star.jpg) no-repeat center center/cover;
+    color: white;
+}
+
+.cssh{
+    background-color: #d25959;
+    border: 2px #e2b83e solid;
+    text-align: center;
+    color: #e2b83e;
+    width: 500px;
+    padding: 10px 10px;
+    
+}
+.cssproba {
+background: url(./img/sample.png) no-repeat left;
+background-attachment: fixed;
+background-size: 200px;
+border: black 2px solid;
+padding: 10px 10px;
+width: 500px;     
 }
