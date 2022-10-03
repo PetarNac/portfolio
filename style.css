@@ -1,3 +1,7 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .proba2 {
     background: url(./img/star.jpg) no-repeat center center/cover;
     color: white;
@@ -19,4 +23,26 @@ background-size: 200px;
 border: black 2px solid;
 padding: 10px 10px;
 width: 500px;     
+}
+
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #4c6ca0;
+    border-radius: 5px;
+    overflow: auto;
+}
+.navbar li {
+    float: left;
+}
+.navbar li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+.navbar li a:hover {
+    background-color: #446190;
+    color: #f4f4f4;
 }
