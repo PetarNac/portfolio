@@ -1,48 +1,91 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.proba2 {
-    background: url(./img/star.jpg) no-repeat center center/cover;
-    color: white;
-}
-
-.cssh{
-    background-color: #d25959;
-    border: 2px #e2b83e solid;
-    text-align: center;
-    color: #e2b83e;
-    width: 500px;
-    padding: 10px 10px;
-    
-}
-.cssproba {
-background: url(./img/sample.png) no-repeat left;
-background-attachment: fixed;
-background-size: 200px;
-border: black 2px solid;
-padding: 10px 10px;
-width: 500px;     
-}
-
-.navbar {
-    list-style: none;
+*{
     margin: 0;
     padding: 0;
-    background: #4c6ca0;
-    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.8em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+#navbar {
+    background: #e97f4c;
+    color: black;
     overflow: auto;
 }
-.navbar li {
-    float: left;
-}
-.navbar li a {
-    display: block;
-    color: #fff;
-    text-decoration: none;
-    padding: 15px 20px;
-}
-.navbar li a:hover {
-    background-color: #446190;
+
+#navbar a {
     color: #f4f4f4;
 }
+
+#navbar h1 {
+    float: left;
+    padding-top: 10px;
+}
+
+#navbar ul {
+    float: right;
+    list-style: none;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+    background: #4695b4;
+    color: #f4f4f4;
+}
+
+#prikaz {
+    background: url(./img/svetki.jpeg) no-repeat center center/cover;
+    height: 550px;
+}
+
+#prikaz .prikaz1{
+    text-align: center;
+    padding: 150px;
+    color: #dfd8d2;
+}
+
+#prikaz .prikaz1 h1 {
+    font-size: 60px;
+    line-height: 1em;
+}
+
+#prikaz .prikaz1 p {
+    padding: 25px 0;
+    line-height: 1.7em;
+    font-size: 20px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    background: #e97f4c;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+}
+
