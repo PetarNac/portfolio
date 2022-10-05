@@ -89,3 +89,10 @@ a {
     cursor: pointer;
 }
 
+#main-footer {
+    text-align: center;
+    background-color: #4695b4;
+    color: black;
+    padding: 20px;
+}
+
